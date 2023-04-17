@@ -25,7 +25,6 @@ function dateSample(sampleActivity) {
 
    const number = Number(sampleActivity);
    if (number <= 0 || number > 15) return false;
-   console.log(Math.ceil(Math.log(MODERN_ACTIVITY/number) * HALF_LIFE_PERIOD)/  0.693);
    return Math.ceil(Math.log(MODERN_ACTIVITY/number) * HALF_LIFE_PERIOD/  0.693);
 }
 

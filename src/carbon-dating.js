@@ -29,8 +29,6 @@ function dateSample(sampleActivity) {
    return Math.ceil(Math.log(MODERN_ACTIVITY/number) * HALF_LIFE_PERIOD/  0.693);
 }
 
-dateSample('3');
-
 module.exports = {
   dateSample
 };
